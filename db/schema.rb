@@ -44,5 +44,4 @@ ActiveRecord::Schema.define(version: 2024_01_11_023156) do
   end
 
   add_foreign_key "tickets", "events"
-  add_foreign_key "tickets", "users"
 end
